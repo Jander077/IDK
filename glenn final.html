@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Curriculum Vitae - Glenn Gabinete</title>
+    <style>
+        body {
+            margin: 0;
+            background: #0000ff; /* changed background to blue */
+            font-family: 'Poppins', sans-serif;
+            color: #222222;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            padding: 20px;
+        }
+        .cv-container {
+            background: #ffffff;
+            border-radius: 12px;
+            max-width: 400px;
+            width: 100%;
+            box-shadow: 0 8px 24px rgba(30, 144, 255, 0.2);
+            padding: 30px 25px;
+            text-align: center;
+            transition: box-shadow 0.3s ease;
+        }
+        .cv-container:hover {
+            box-shadow: 0 12px 36px rgba(30, 144, 255, 0.35);
+        }
+        .profile-pic {
+            width: 140px;
+            height: 140px;
+            border-radius: 50%;
+            overflow: hidden;
+            margin: 0 auto 18px;
+            border: 4px solid #1e90ff;
+        }
+        .profile-pic img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        h1 {
+            margin: 0 0 12px;
+            font-weight: 600;
+            font-size: 1.9rem;
+            letter-spacing: 1px;
+            color: #111111;
+        }
+        p.intro {
+            font-weight: 400;
+            font-size: 1rem;
+            margin: 0 0 10px;
+            color: #555555;
+        }
+        .age-gender {
+            font-weight: 400;
+            font-size: 1rem;
+            margin: 0 0 25px;
+            color: #555555;
+        }
+        .contact-info {
+            font-weight: 500;
+            margin-bottom: 25px;
+        }
+        .contact-item {
+            margin: 8px 0;
+            font-size: 1rem;
+            color: #1e90ff;
+        }
+        .contact-item a {
+            color: inherit;
+            text-decoration: none;
+        }
+        .contact-item a:hover {
+            text-decoration: underline;
+        }
+        .social-links {
+            display: flex;
+            justify-content: center;
+            gap: 25px;
+            margin-top: 25px;
+        }
+        .social-link {
+            display: inline-flex;
+            width: 36px;
+            height: 36px;
+            color: #1e90ff;
+            transition: color 0.25s ease;
+        }
+        .social-link:hover {
+            color: #0f62fe;
+        }
+        .social-link svg {
+            width: 100%;
+            height: 100%;
+        }
+        .technical-skills {
+            margin-top: 25px;
+            text-align: left;
+        }
+        .technical-skills h2 {
+            font-size: 1.5rem;
+            margin-bottom: 10px;
+            color: #111111;
+        }
+        .technical-skills ul {
+            list-style-type: none;
+            padding: 0;
+            color: #555555;
+            font-weight: 400;
+        }
+        .technical-skills li {
+            margin: 6px 0;
+            font-size: 1rem;
+            line-height: 1.4;
+        }
+        .work {
+            margin-top: 25px;
+            text-align: left;
+        }
+        .work img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    </style>
+</head>
+<body>
+    <div class="cv-container" role="main" aria-label="Curriculum Vitae of Gleen Gabinete">
+        <div class="profile-pic" aria-label="Profile photo of Gleen Gabinete">
+            <img src="https://i.ibb.co/Fk5PLQrL/1747754339088.jpg" alt="Profile photo of Gleen Gabinete" />
+        </div>
+        <h1>Glenn Gabinete</h1>
+        <p class="intro">I am a 3rd-year Bachelor of Computer Science student passionate about web design and eager to innovate in the digital space.</p>
+        <p class="age-gender">Age: 21</p>
+        <p class="age-gender">Gender: Male</p>
+        <div class="contact-info" aria-label="Contact Information">
+            <div class="contact-item">📧 <a href="https://mail.google.com/mail/?view=cm&fs=1&to=gabineteglenn9@gmail.com" target="_blank" rel="noopener">gabineteglenn9@gmail.com</a></div>
+            <div class="contact-item">📞 <a href="tel:+639942463416">+63 994 246 3416</a></div>
+        </div>
+        <div class="work" aria-label="Work">
+            <h2>Work</h2>
+            <img src="https://i.ibb.co/zV89tBqD/Picture2.png" alt="Picture2">
+            <img src="https://i.ibb.co/CpBD9qhd/Picture1.png" alt="Picture1">
+        </div>
+        <div class="technical-skills" aria-label="Technical Skills">
+            <h2>Technical Skills</h2>
+            <ul>
+                <li><strong>Graphic Design:</strong> Advanced skills in Adobe Photoshop for digital art and image editing</li>
+                <li><strong>Web Technologies:</strong> Proficient in HTML5, CSS3, and JavaScript with a focus on responsive design</li>
+                <li><strong>UI/UX Design:</strong> Experienced in creating user-friendly interfaces and enjoyable user experiences</li>
+                <li><strong>Version Control:</strong> Comfortable using Git for source code management and collaboration</li>
+                <li><strong>Frameworks & Tools:</strong> Familiar with React.js and Bootstrap for dynamic, scalable web applications</li>
+            </ul>
+        </div>
+        <div class="social-links" aria-label="Social media links">
+            <a class="social-link" href="https://web.facebook.com/glenn.gabinete.5/?_rdc=1&_rdr#" target="_blank" rel="noopener" aria-label="Facebook">
+                <!-- Facebook SVG Here -->
+                <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                    <path d="M22.675 0H1.325C.593 0 0 .593 0 1.325v21.351C0 23.406.593 24 1.325 24h11.495v-9.294H9.691v-3.622h3.129V8.413c0-3.1 1.893-4.788 4.659-4.788 1.325 0 2.464.099 2.797.143v3.24h-1.917c-1.505 0-1.796.716-1.796 1.764v2.313h3.588l-.467 3.622h-3.12V24h6.116c.73 0 1.324-.594 1.324-1.324V1.324C24 .593 23.406 0 22.675 0z"/>
+                </svg>
+            </a>
+            <a class="social-link" href="https://www.instagram.com/gbnt_glenn_/#" target="_blank" rel="noopener" aria-label="Instagram">
+                <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                    <path d="M12 2.163c3.206 0 3.58.012 4.85.07 1.29.059 2.12.27 2.617.45.63.25 1.086.56 1.56 1.04.48.48.79.93 1.04 1.56.18.497.39 1.328.45 2.617.058 1.27.07 1.644.07 4.85s-.012 3.58-.07 4.85c-.059 1.29-.27 2.12-.45 2.617-.25.63-.56 1.086-1.04 1.56-.48.48-.93.79-1.56 1.04-.497.18-1.328.39-2.617.45-1.27.058-1.644.07-4.85.07s-3.58-.012-4.85-.07c-1.29-.059-2.12-.27-2.617-.45-.63-.25-1.086-.56-1.56-1.04-.48-.48-.79-.93-1.04-1.56-.18-.497-.39-1.328-.45-2.617C2.175 15.743 2.163 15.37 2.163 12s.012-3.58.07-4.85c.059-1.29.27-2.12.45-2.617.25-.63.56-1.086 1.04-1.56.48-.48.93-.79 1.56-1.04.497-.18 1.328-.39 2.617-.45C8.42 2.175 8.794 2.163 12 2.163zm0-2.163C8.741 0 8.33.012 7.04.07 5.78.13 4.78.36 3.93.67 2.73 1.06 1.73 1.76.67 2.82-.06 3.88-.36 5.78-.36 7.04-.36 8.33-.36 12s.012 3.58.07 4.85c.059 1.29.27 2.12.45 2.617.25.63.56 1.086 1.04 1.56.48.48.93.79 1.56 1.04.497.18 1.328.39 2.617.45 1.27.058 1.644.07 4.85.07s3.58-.012 4.85-.07c1.29-.059 2.12-.27 2.617-.45.63-.25 1.086-.56 1.56-1.04.48-.48.79-.93 1.04-1.56.18-.497.39-1.328.45-2.617.058-1.27.07-1.644.07-4.85s-.012-3.58-.07-4.85c-.059-1.29-.27-2.12-.45-2.617-.25-.63-.56-1.086-1.04-1.56-.48-.48-.93-.79-1.56-1.04-.497-.18-1.328-.39-2.617-.45C15.58.012 15.206 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zm0 10.162a3.999 3.999 0 110-8 3.999 3.999 0 010 8zm4.5-10.162a.75.75 0 100 1.5.75.75 0 000-1.5z"/>
+                </svg>
+            </a>
+            <a class="social-link" href="https://t.me/Crazygabo" target="_blank" rel="noopener" aria-label="Telegram">
+                <!-- Telegram SVG Here -->
+                <svg viewBox="0 0 512 512" fill="currentColor" aria-hidden="true">
+                    <path d="M256 32C119 32 8 128 8 256c0 128 111 224 248 224s248-96 248-224C504 128 393 32 256 32zm113.1 200.9l-33.6 177.8c-2.1 11.7-8.2 15.9-16.5 11.9l-53.4-33.3-22 16.9a15 15 0 01-18.8-2.5l-26-26.5c-6.3-6.4-6.3-13.4 0-19.8l32.3-30.2-93.2-39c-10.6-4.6-11.3-9.1-2-14.1l131-67.9c8.8-4.5 14.7-3.9 18.5 0s3.1 9.7-2.8 13.4l-119.2 62.2 83.1 34.5c12.5 5.2 9.7 12.9 5 13.4l-61-26.3 72.3-43.9c8.6-5.3 18.1-1.7 22 2.2s6.8 11.9 6.4 18.6z"/>
+                </svg>
+            </a>
+        </div>
+    </div>
+</body>
+</html>
